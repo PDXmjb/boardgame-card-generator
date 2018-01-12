@@ -5,6 +5,8 @@
 
 <div class="border-div">
     <div class="name">@Model.Name</div>
+    <div class="victory-point">1</div>
+    <div class="cost">5</div>
     <div style="clear: both;"></div>
     <div class="picture"></div>
     <div class="special">@Model.Special</div>
@@ -12,142 +14,142 @@
 
 <style type="text/css">
     .border-div {
-	border: 1px solid black;
-	margin: 0px;
-	border-radius: 15px;
-	width: 300px; 
-	height: 400px; 
-	padding: 15px;
-	display: block;
-	background-image: url("parchment.jpg");
-	background-size: 108%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-div {
-	display: inline;
-	font-family: Papyrus, fantasy;
-	text-shadow: 1px 1px 0px #000000;
-}
-.victory-point {
-	border: 1px solid purple;
-	padding: 6px;
-	background-color: purple;
-	color: white;
-	border-radius: 64px;
-	float: left;
-	width: 34px;
-	text-align: center;
-}
-.name {
-	font-size: 25px;
-	width: 200px;
-	text-align: center;
-	display: inline-block;
-	color: #FFFFFF;
-}
-.cost {
-	padding: 6px;
-	border-radius: 20px;
-	width: 30px;
-	text-align: center;
-	float: right;
-	font-size: 25px;
-}
-.cost-gold {
-	color: #FFFFFF;	
-	width: 30px;
-	height: 30px;
-	max-width: 30px;
-	max-height: 30px;
-	border-radius: 15px;
-	background-image: url("gold.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 5px;	
-}
-.cost-science {
-	color: #FFFFFF;	
-	width: 30px;
-	height: 30px;
-	max-width: 30px;
-	max-height: 30px;
-	border-radius: 15px;
-	background-image: url("gear.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 5px;
-}
-.type {
-	font-size: 20px;
-	width: 200px;
-	text-align: center;
-	display: inline-block;
-}
-.type-army {
-	color: #990000;
-}
-.type-tech {
-	color: #39e600;
-}
-.type-building {
-	color: #cc99ff
-}
-.type-advisor {
-	color: #ffcc99;
-}
-.type-relics {
-	color:  #ffb3d1;
-}
-.picture {
-	display: block;
-	width: 250px;
-	height: 200px;
-	max-width: 250px;
-	max-height: 200px;
-	background-color: white;
-	border-radius: 15px;
-	margin: 25px;
-	background-image: url("knight.jpeg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	border: 1px solid black;
-	margin: 24px 24px 10px 24px;
-}
-.attack, .defend {
-    color: #FFFFFF;	
-	width: 40px;
-	height: 40px;
-	max-width: 40px;
-	max-height: 40px;
-    background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 5px;
-	display: inline-block;
-	text-align: center;
-	font-size: 25px;	
-}
-.attack {	
-	background-image: url("swords.png");
-    margin-left: 105px;	
-    margin-bottom: 10px;
-	margin-right: 10px;
-}
-.defend {
-	background-image: url("shield.png");
-}
-.special {
-	display: block;
-	border: 1px solid black;
-    text-align: center;
-    background-color: white;
-    border-radius: 4px 4px 15px 15px;
-	margin: 0px;
-	padding: 15px;
-	text-shadow: none;
-}
+	    border: 1px solid black;
+	    margin: 0px;
+	    border-radius: 15px;
+	    width: 300px; 
+	    height: 400px; 
+	    padding: 15px;
+	    display: block;
+	    background-image: url("ground.jpg");
+	    background-size: 108%;
+	    background-repeat: no-repeat;
+	    background-position: center;    
+    }
+    div {
+	    display: inline;
+	    font-family: Papyrus, fantasy;
+	    text-shadow: 1px 1px 0px #000000;
+    }
+    .victory-point {
+	    border: 1px solid purple;
+	    padding: 6px;
+	    background-color: purple;
+	    color: white;
+	    border-radius: 64px;
+	    float: left;
+	    width: 34px;
+	    text-align: center;
+    }
+    .name {
+	    font-size: 25px;
+	    width: 200px;
+	    text-align: center;
+	    display: inline-block;
+	    color: #FFFFFF;
+    }
+    .cost {
+	    padding: 6px;
+	    border-radius: 20px;
+	    width: 30px;
+	    text-align: center;
+	    float: right;
+	    font-size: 25px;
+    }
+    .cost-gold {
+	    color: #FFFFFF;	
+	    width: 30px;
+	    height: 30px;
+	    max-width: 30px;
+	    max-height: 30px;
+	    border-radius: 15px;
+	    background-image: url("gold.png");
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding-top: 5px;	
+    }
+    .cost-science {
+	    color: #FFFFFF;	
+	    width: 30px;
+	    height: 30px;
+	    max-width: 30px;
+	    max-height: 30px;
+	    border-radius: 15px;
+	    background-image: url("gear.png");
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding-top: 5px;
+    }
+    .type {
+	    font-size: 20px;
+	    width: 200px;
+	    text-align: center;
+	    display: inline-block;
+    }
+    .type-army {
+	    color: #990000;
+    }
+    .type-tech {
+	    color: #39e600;
+    }
+    .type-building {
+	    color: #cc99ff
+    }
+    .type-advisor {
+	    color: #ffcc99;
+    }
+    .type-relics {
+	    color:  #ffb3d1;
+    }
+    .picture {
+        display: block;
+        width: 250px;
+        height: 200px;
+        max-width: 250px;
+        max-height: 200px;
+        background-color: white;
+        border-radius: 15px;
+        margin: 25px;
+        background-image: url('../Home/knight.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid black;
+        margin: 24px 24px 10px 24px;
+    }
+    .attack, .defend {
+        color: #FFFFFF;	
+	    width: 40px;
+	    height: 40px;
+	    max-width: 40px;
+	    max-height: 40px;
+        background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding-top: 5px;
+	    display: inline-block;
+	    text-align: center;
+	    font-size: 25px;	
+    }
+    .attack {	
+	    background-image: url("swords.png");
+        margin-left: 105px;	
+        margin-bottom: 10px;
+	    margin-right: 10px;
+    }
+    .defend {
+	    background-image: url("shield.png");
+    }
+    .special {
+	    display: block;
+	    border: 1px solid black;
+        text-align: center;
+        background-color: white;
+        border-radius: 4px 4px 15px 15px;
+	    margin: 0px;
+	    padding: 15px;
+	    text-shadow: none;
+    }
 </style>

@@ -1,0 +1,255 @@
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\ApplicationInsights.config
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\csc.exe
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\System.Collections.Immutable.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\vbc.exe
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\VBCSCompiler.exe
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\roslyn\VBCSCompiler.exe.config
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Card generator.dll.config
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Card generator.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Card generator.pdb
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Antlr3.Runtime.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\EntityFramework.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\EntityFramework.SqlServer.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.Web.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.WindowsServer.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.ApplicationInsights.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Google.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Web.Infrastructure.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Newtonsoft.Json.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Owin.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Helpers.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Mvc.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Optimization.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Razor.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.Deployment.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.Razor.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\WebGrease.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.Web.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AI.WindowsServer.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.ApplicationInsights.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Helpers.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Mvc.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Optimization.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.Razor.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.Deployment.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\System.Web.WebPages.Razor.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Antlr3.Runtime.pdb
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Newtonsoft.Json.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\EntityFramework.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\EntityFramework.SqlServer.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Google.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card generator.dll
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card generator.pdb
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card generator.g.resources
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card_generator.Properties.Resources.resources
+c:\users\micha\documents\visual studio 2015\Projects\Card generator\Card generator\obj\Debug\Card generator.csproj.GenerateResource.Cache
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\ApplicationInsights.config
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\csc.exe
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\vbc.exe
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Card generator.dll.config
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Card generator.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Card generator.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Antlr3.Runtime.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\EntityFramework.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\EntityFramework.SqlServer.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.Web.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Newtonsoft.Json.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Helpers.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Mvc.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Optimization.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Razor.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\WebGrease.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.Web.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Helpers.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Mvc.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Optimization.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.Razor.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Antlr3.Runtime.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Newtonsoft.Json.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\EntityFramework.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\EntityFramework.SqlServer.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card generator.g.resources
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card_generator.Properties.Resources.resources
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card generator.csproj.GenerateResource.Cache
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card generator.dll
+C:\Users\Mike Brooks\Dropbox\Card generator\Card generator\obj\Debug\Card generator.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\ApplicationInsights.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csc.exe
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\vbc.exe
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Card generator.dll.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Card generator.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Card generator.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Antlr3.Runtime.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\EntityFramework.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\EntityFramework.SqlServer.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.Web.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Newtonsoft.Json.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Owin.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Helpers.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Mvc.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Optimization.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Razor.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\WebGrease.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.Web.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Helpers.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Mvc.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Optimization.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.Razor.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Antlr3.Runtime.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Newtonsoft.Json.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\EntityFramework.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\EntityFramework.SqlServer.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.g.resources
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card_generator.Properties.Resources.resources
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csproj.GenerateResource.Cache
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.pdb

@@ -1,15 +1,15 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
-@model Card_generator.Models.CardViewModel
+﻿@model Card_generator.Models.CardViewModel
 
 <div class="border-div">
-    <div class="name">@Model.Name</div>
-    <div class="victory-point">1</div>
-    <div class="cost">5</div>
-    <div style="clear: both;"></div>
-    <div class="picture"></div>
-    <div class="special">@Model.Special</div>
+    <div class="label top left">@Model.TopLeftLabel.Label</div>
+    <div class="label top centerColumn">@Model.TopCenterLabel.Label</div>
+    <div class="label top right">@Model.TopRightLabel.Label</div>
+    <div class="label centerRow left">@Model.CenterLeftLabel.Label</div>
+    <div class="label centerRow centerColumn">@Model.CenterLabel.Label</div>
+    <div class="label centerRow right">@Model.CenterRightLabel.Label</div>
+    <div class="label bottom left">@Model.BottomLeftLabel.Label</div>
+    <div class="label bottom centerColumn">@Model.BottomCenterLabel.Label</div>
+    <div class="label bottom right">@Model.BottomRightLabel.Label</div>
 </div>
 
 <style type="text/css">
@@ -20,18 +20,47 @@
 	    width: 300px; 
 	    height: 400px; 
 	    padding: 15px;
-	    display: block;
+	    display: inline-block;
 	    background-image: url("ground.jpg");
 	    background-size: 108%;
 	    background-repeat: no-repeat;
-	    background-position: center;    
+	    background-position: center; 
+        overflow: no-display;   
     }
     div {
 	    display: inline;
 	    font-family: Papyrus, fantasy;
-	    text-shadow: 1px 1px 0px #000000;
+	    /*text-shadow: 1px 1px 0px #000000;
+        color: #ffffff;*/
     }
-    .victory-point {
+    .label {
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        margin: 5px;
+        height: 120px;
+    }
+    .top, .bottom {
+        height: 40px;
+        line-height: 40px;
+    }
+    .centerRow{
+        height: 284px;
+        line-height: 284px;
+    }
+    .centerColumn{
+        width: 178px;
+    }
+    .left, .right {
+        width: 40px;
+    }
+    .centerRow.right, .centerRow.left {
+        writing-mode: vertical-lr;
+        line-height: 40px;
+    }
+
+    /*.victory-point {
 	    border: 1px solid purple;
 	    padding: 6px;
 	    background-color: purple;
@@ -151,5 +180,5 @@
 	    margin: 0px;
 	    padding: 15px;
 	    text-shadow: none;
-    }
+    }*/
 </style>

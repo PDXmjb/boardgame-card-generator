@@ -1,15 +1,15 @@
 ﻿@model Card_generator.Models.CardViewModel
 
 <div class="border-div">
-    <div class="label top left">@Model.TopLeftLabel.Label</div>
-    <div class="label top centerColumn">@Model.TopCenterLabel.Label</div>
-    <div class="label top right">@Model.TopRightLabel.Label</div>
-    <div class="label centerRow left">@Model.CenterLeftLabel.Label</div>
-    <div class="label centerRow centerColumn">@Model.CenterLabel.Label</div>
-    <div class="label centerRow right">@Model.CenterRightLabel.Label</div>
-    <div class="label bottom left">@Model.BottomLeftLabel.Label</div>
-    <div class="label bottom centerColumn">@Model.BottomCenterLabel.Label</div>
-    <div class="label bottom right">@Model.BottomRightLabel.Label</div>
+    <div style="@Model.TopLeftLabel.AdditionalCSS" class="card-label top left">@Model.TopLeftLabel.Label</div>
+    <div style="@Model.TopCenterLabel.AdditionalCSS" class="card-label top centerColumn">@Model.TopCenterLabel.Label</div>
+    <div style="@Model.TopRightLabel.AdditionalCSS" class="card-label top right">@Model.TopRightLabel.Label</div>
+    <div style="@Model.CenterLeftLabel.AdditionalCSS" class="card-label centerRow left">@Model.CenterLeftLabel.Label</div>
+    <div style="@Model.CenterLabel.AdditionalCSS" class="card-label centerRow centerColumn">@Model.CenterLabel.Label</div>
+    <div style="@Model.CenterRightLabel.AdditionalCSS" class="card-label centerRow right">@Model.CenterRightLabel.Label</div>
+    <div style="@Model.BottomLeftLabel.AdditionalCSS" class="card-label bottom left">@Model.BottomLeftLabel.Label</div>
+    <div style="@Model.BottomCenterLabel.AdditionalCSS" class="card-label bottom centerColumn">@Model.BottomCenterLabel.Label</div>
+    <div style="@Model.BottomRightLabel.AdditionalCSS" class="card-label bottom right">@Model.BottomRightLabel.Label</div>
 </div>
 
 <style type="text/css">
@@ -17,168 +17,166 @@
 	    border: 1px solid black;
 	    margin: 0px;
 	    border-radius: 15px;
-	    width: 300px; 
-	    height: 400px; 
-	    padding: 15px;
+	    width: 571px;
+	    height: 800px;
 	    display: inline-block;
-	    background-image: url("ground.jpg");
-	    background-size: 108%;
-	    background-repeat: no-repeat;
-	    background-position: center; 
-        overflow: no-display;   
+        @if(!Model.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.BackgroundImage");
+        }
+        @if (!Model.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.BackgroundColor;
+        }
     }
     div {
 	    display: inline;
 	    font-family: Papyrus, fantasy;
-	    /*text-shadow: 1px 1px 0px #000000;
-        color: #ffffff;*/
+        background-size: 108%;
+	    background-repeat: no-repeat;
+	    background-position: center;
     }
-    .label {
-        border: 1px solid black;
+    .card-label {
         text-align: center;
         vertical-align: middle;
         display: inline-block;
         margin: 5px;
         height: 120px;
+        font-size: 30px;
+        color: white;
+        text-shadow: 1px 1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000,
+                    0px 1px 0 #000,
+                    0px -1px 0 #000,
+                    -1px 0px 0 #000,
+                    1px 0px 0 #000,
+                    2px 2px 0 #000,
+                    -2px 2px 0 #000,
+                    2px -2px 0 #000,
+                    -2px -2px 0 #000,
+                    0px 2px 0 #000,
+                    0px -2px 0 #000,
+                    -2px 0px 0 #000,
+                    2px 0px 0 #000,
+                    1px 2px 0 #000,
+                    -1px 2px 0 #000,
+                    1px -2px 0 #000,
+                    -1px -2px 0 #000,
+                    2px 1px 0 #000,
+                    -2px 1px 0 #000,
+                    2px -1px 0 #000,
+                    -2px -1px 0 #000;
     }
     .top, .bottom {
-        height: 40px;
-        line-height: 40px;
+        height: 80px;
+        line-height: 80px;
     }
     .centerRow{
-        height: 284px;
-        line-height: 284px;
+        height: 608px;
+        line-height: 608px;
     }
     .centerColumn{
-        width: 178px;
+        width: 374px;
     }
     .left, .right {
-        width: 40px;
+        width: 80px;
     }
     .centerRow.right, .centerRow.left {
         writing-mode: vertical-lr;
-        line-height: 40px;
+        line-height: 80px;
+    }    
+    
+    .top.left {
+        @if(!Model.TopLeftLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.TopLeftLabel.BackgroundImage");
+        }
+        @if(!Model.TopLeftLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.TopLeftLabel.BackgroundColor;
+        }
+    }
+    .top.centerColumn {
+        @if(!Model.TopCenterLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.TopCenterLabel.BackgroundImage");
+        }
+        @if(!Model.TopCenterLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.TopCenterLabel.BackgroundColor;
+        }
+    }
+    .top.right {
+        @if(!Model.TopRightLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.TopRightLabel.BackgroundImage");
+        }
+        @if(!Model.TopRightLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.TopRightLabel.BackgroundColor;
+        }
+    }
+    .centerRow.left {
+        @if(!Model.CenterLeftLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.CenterLeftLabel.BackgroundImage");
+        }
+        @if(!Model.CenterLeftLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.CenterLeftLabel.BackgroundColor;
+        }
+    }
+    .centerRow.centerColumn {
+        @if(!Model.CenterLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.CenterLabel.BackgroundImage");
+        }
+        @if(!Model.CenterLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.CenterLabel.BackgroundColor;
+        }
+    }
+    .centerRow.right {
+        @if(!Model.CenterRightLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.CenterRightLabel.BackgroundImage");
+        }
+        @if(!Model.CenterRightLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.CenterRightLabel.BackgroundColor;
+        }
+    }
+    .bottom.left {
+        @if(!Model.BottomLeftLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.BottomLeftLabel.BackgroundImage");
+        }
+        @if(!Model.BottomLeftLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.BottomLeftLabel.BackgroundColor;
+        }
+    }
+    .bottom.centerColumn {
+        @if(!Model.BottomCenterLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.BottomCenterLabel.BackgroundImage");
+        }
+        @if(!Model.BottomCenterLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.BottomCenterLabel.BackgroundColor;
+        }
+    }
+    .bottom.right {
+        @if(!Model.BottomRightLabel.BackgroundImage.IsEmpty())
+        {
+            @:background-image: url("@Model.BottomRightLabel.BackgroundImage");
+        }
+        @if(!Model.BottomRightLabel.BackgroundColor.IsEmpty())
+        {
+            @:background-color: @Model.BottomRightLabel.BackgroundColor;
+        }
     }
 
-    /*.victory-point {
-	    border: 1px solid purple;
-	    padding: 6px;
-	    background-color: purple;
-	    color: white;
-	    border-radius: 64px;
-	    float: left;
-	    width: 34px;
-	    text-align: center;
-    }
-    .name {
-	    font-size: 25px;
-	    width: 200px;
-	    text-align: center;
-	    display: inline-block;
-	    color: #FFFFFF;
-    }
-    .cost {
-	    padding: 6px;
-	    border-radius: 20px;
-	    width: 30px;
-	    text-align: center;
-	    float: right;
-	    font-size: 25px;
-    }
-    .cost-gold {
-	    color: #FFFFFF;	
-	    width: 30px;
-	    height: 30px;
-	    max-width: 30px;
-	    max-height: 30px;
-	    border-radius: 15px;
-	    background-image: url("gold.png");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    padding-top: 5px;	
-    }
-    .cost-science {
-	    color: #FFFFFF;	
-	    width: 30px;
-	    height: 30px;
-	    max-width: 30px;
-	    max-height: 30px;
-	    border-radius: 15px;
-	    background-image: url("gear.png");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    padding-top: 5px;
-    }
-    .type {
-	    font-size: 20px;
-	    width: 200px;
-	    text-align: center;
-	    display: inline-block;
-    }
-    .type-army {
-	    color: #990000;
-    }
-    .type-tech {
-	    color: #39e600;
-    }
-    .type-building {
-	    color: #cc99ff
-    }
-    .type-advisor {
-	    color: #ffcc99;
-    }
-    .type-relics {
-	    color:  #ffb3d1;
-    }
-    .picture {
-        display: block;
-        width: 250px;
-        height: 200px;
-        max-width: 250px;
-        max-height: 200px;
-        background-color: white;
-        border-radius: 15px;
-        margin: 25px;
-        background-image: url('../Home/knight.jpeg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        border: 1px solid black;
-        margin: 24px 24px 10px 24px;
-    }
-    .attack, .defend {
-        color: #FFFFFF;	
-	    width: 40px;
-	    height: 40px;
-	    max-width: 40px;
-	    max-height: 40px;
-        background-size: contain;
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    padding-top: 5px;
-	    display: inline-block;
-	    text-align: center;
-	    font-size: 25px;	
-    }
-    .attack {	
-	    background-image: url("swords.png");
-        margin-left: 105px;	
-        margin-bottom: 10px;
-	    margin-right: 10px;
-    }
-    .defend {
-	    background-image: url("shield.png");
-    }
-    .special {
-	    display: block;
-	    border: 1px solid black;
-        text-align: center;
-        background-color: white;
-        border-radius: 4px 4px 15px 15px;
-	    margin: 0px;
-	    padding: 15px;
-	    text-shadow: none;
-    }*/
 </style>

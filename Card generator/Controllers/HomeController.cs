@@ -1,6 +1,8 @@
 ﻿using Card_generator.Models;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Web.Mvc;
@@ -41,7 +43,31 @@ namespace Card_generator.Controllers
             }
             reader.Close();
 
+            var m_Bitmap = new Bitmap(285, 400);
+            PointF point = new PointF(0, 0);
+            SizeF maxSize = new SizeF(285, 400);
+            var html = RenderRazorViewToString("Index", list.First());
+
+            TheArtOfDev.HtmlRenderer.WinForms.HtmlRender.Render(Graphics.FromImage(m_Bitmap), html,point, maxSize);
+
+            m_Bitmap.Save(@"C:\Users\Mike Brooks\Downloads\Test.png", ImageFormat.Png);
+
             return View(list.First());
         }
-    }
+
+        public string RenderRazorViewToString(string viewName, object model)
+        {
+            ViewData.Model = model;
+            using (var sw = new StringWriter())
+            {
+                var viewResult = ViewEngines.Engines.FindPartialView(ControllerContext,
+                                                                         viewName);
+                var viewContext = new ViewContext(ControllerContext, viewResult.View,
+                                             ViewData, TempData, sw);
+                viewResult.View.Render(viewContext, sw);
+                viewResult.ViewEngine.ReleaseView(ControllerContext, viewResult.View);
+                return sw.GetStringBuilder().ToString();
+            }
+        }
+    }   
 }

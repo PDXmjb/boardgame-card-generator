@@ -247,9 +247,60 @@ C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
-C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.g.resources
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card_generator.Properties.Resources.resources
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csproj.GenerateResource.Cache
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.dll
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\SkiaSharp.dll.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\libSkiaSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\libSkiaSharp.dylib
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\x86\libSkiaSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\x64\libSkiaSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csc.exe.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csc.rsp
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csi.exe
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csi.exe.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\csi.rsp
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.AppContext.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Console.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Claims.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\vbc.exe.config
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\roslyn\vbc.rsp
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\SkiaSharp.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\SkiaSharp.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.WinForms.dll
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.WinForms.pdb

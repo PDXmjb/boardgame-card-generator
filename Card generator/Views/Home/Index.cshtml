@@ -1,6 +1,6 @@
 ﻿@model Card_generator.Models.CardViewModel
 
-<div class="border-div">
+<div id="card" class="border-div">
     <div style="@Model.TopLeftLabel.AdditionalCSS" class="card-label top left">@Model.TopLeftLabel.Label</div>
     <div style="@Model.TopCenterLabel.AdditionalCSS" class="card-label top centerColumn">@Model.TopCenterLabel.Label</div>
     <div style="@Model.TopRightLabel.AdditionalCSS" class="card-label top right">@Model.TopRightLabel.Label</div>
@@ -11,6 +11,25 @@
     <div style="@Model.BottomCenterLabel.AdditionalCSS" class="card-label bottom centerColumn">@Model.BottomCenterLabel.Label</div>
     <div style="@Model.BottomRightLabel.AdditionalCSS" class="card-label bottom right">@Model.BottomRightLabel.Label</div>
 </div>
+<a id="btn-Convert-Html2Image" href="#">Download</a>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var element = $("#card").get(0); // global variable
+
+        console.log("Clicked");
+        html2canvas(element).then(function(canvas) {
+            var imageData = canvas.toDataURL("image/png");
+            // Now browser starts downloading it instead of just showing it
+            var newData = imageData.replace(/^data:image\/png/, "data:application/octet-stream");
+            $("#btn-Convert-Html2Image").attr("download", "@(Model.TopCenterLabel.Label).png").attr("href", newData);
+
+            var a = $("#btn-Convert-Html2Image");
+            a[0].click();
+            a.remove();
+        });
+    });    
+</script>
+
 
 <style type="text/css">
     .border-div {
@@ -78,7 +97,7 @@
         line-height: 608px;
     }
     .centerColumn{
-        width: 374px;
+        width: 371px;
     }
     .left, .right {
         width: 80px;

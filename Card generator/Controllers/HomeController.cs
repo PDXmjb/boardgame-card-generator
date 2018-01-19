@@ -43,9 +43,9 @@ namespace Card_generator.Controllers
             }
             reader.Close();
 
-            var m_Bitmap = new Bitmap(285, 400);
+            var m_Bitmap = new Bitmap(571, 800);
             PointF point = new PointF(0, 0);
-            SizeF maxSize = new SizeF(285, 400);
+            SizeF maxSize = new SizeF(571, 800);
             var html = RenderRazorViewToString("Index", list.First());
 
             TheArtOfDev.HtmlRenderer.WinForms.HtmlRender.Render(Graphics.FromImage(m_Bitmap), html,point, maxSize);

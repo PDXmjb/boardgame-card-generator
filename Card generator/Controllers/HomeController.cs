@@ -13,7 +13,7 @@ namespace Card_generator.Controllers
     {
         public ActionResult Index()
         {
-
+            // TODO: Convert to user-linked database.
             var reader = new StreamReader(System.IO.File.OpenRead(@"C:\Users\Mike Brooks\Dropbox\Card generator 2\game.csv"));
             var list = new List<CardViewModel>();
             Random rand = new Random();
@@ -42,17 +42,8 @@ namespace Card_generator.Controllers
                 list.Add(model);
             }
             reader.Close();
-
-            var m_Bitmap = new Bitmap(571, 800);
-            PointF point = new PointF(0, 0);
-            SizeF maxSize = new SizeF(571, 800);
-            var html = RenderRazorViewToString("Index", list.First());
-
-            TheArtOfDev.HtmlRenderer.WinForms.HtmlRender.Render(Graphics.FromImage(m_Bitmap), html,point, maxSize);
-
-            m_Bitmap.Save(@"C:\Users\Mike Brooks\Downloads\Test.png", ImageFormat.Png);
-
-            return View(list.First());
+            
+            return View(list);
         }
 
         public string RenderRazorViewToString(string viewName, object model)

@@ -1,0 +1,181 @@
+﻿<div class="card border-div">
+    <div style="@Model.TopLeftLabel.AdditionalCSS" class="card-label top left">@Model.TopLeftLabel.Label</div>
+    <div style="@Model.TopCenterLabel.AdditionalCSS" class="card-label top centerColumn">@Model.TopCenterLabel.Label</div>
+    <div style="@Model.TopRightLabel.AdditionalCSS" class="card-label top right">@Model.TopRightLabel.Label</div>
+    <div style="@Model.CenterLeftLabel.AdditionalCSS" class="card-label centerRow left">@Model.CenterLeftLabel.Label</div>
+    <div style="@Model.CenterLabel.AdditionalCSS" class="card-label centerRow centerColumn">@Model.CenterLabel.Label</div>
+    <div style="@Model.CenterRightLabel.AdditionalCSS" class="card-label centerRow right">@Model.CenterRightLabel.Label</div>
+    <div style="@Model.BottomLeftLabel.AdditionalCSS" class="card-label bottom left">@Model.BottomLeftLabel.Label</div>
+    <div style="@Model.BottomCenterLabel.AdditionalCSS" class="card-label bottom centerColumn">@Model.BottomCenterLabel.Label</div>
+    <div style="@Model.BottomRightLabel.AdditionalCSS" class="card-label bottom right">@Model.BottomRightLabel.Label</div>
+</div>
+
+
+<style type="text/css">
+    .border-div {
+	    border: 1px solid black;
+	    margin: 0px;
+	    border-radius: 15px;
+	    width: 571px;
+	    height: 800px;
+	    display: inline-block;
+        @if(Model.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.BackgroundImage");
+        }
+        @if(Model.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.BackgroundColor;
+        }
+    }
+    div {
+	    display: inline;
+	    font-family: Papyrus, fantasy;
+        background-size: 108%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+    }
+    .card-label {
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        margin: 5px;
+        height: 120px;
+        font-size: 30px;
+        color: white;
+        text-shadow: 1px 1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000,
+                    0px 1px 0 #000,
+                    0px -1px 0 #000,
+                    -1px 0px 0 #000,
+                    1px 0px 0 #000,
+                    2px 2px 0 #000,
+                    -2px 2px 0 #000,
+                    2px -2px 0 #000,
+                    -2px -2px 0 #000,
+                    0px 2px 0 #000,
+                    0px -2px 0 #000,
+                    -2px 0px 0 #000,
+                    2px 0px 0 #000,
+                    1px 2px 0 #000,
+                    -1px 2px 0 #000,
+                    1px -2px 0 #000,
+                    -1px -2px 0 #000,
+                    2px 1px 0 #000,
+                    -2px 1px 0 #000,
+                    2px -1px 0 #000,
+                    -2px -1px 0 #000;
+    }
+    .top, .bottom {
+        height: 80px;
+        line-height: 80px;
+    }
+    .centerRow{
+        height: 608px;
+        line-height: 608px;
+    }
+    .centerColumn{
+        width: 371px;
+    }
+    .left, .right {
+        width: 80px;
+    }
+    .centerRow.right, .centerRow.left {
+        writing-mode: vertical-lr;
+        line-height: 80px;
+    }
+
+    .top.left {
+        @if(Model.TopLeftLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.TopLeftLabel.BackgroundImage");
+        }
+        @if(Model.TopLeftLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.TopLeftLabel.BackgroundColor;
+        }
+    }
+    .top.centerColumn {
+        @if(Model.TopCenterLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.TopCenterLabel.BackgroundImage");
+        }
+        @if(Model.TopCenterLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.TopCenterLabel.BackgroundColor;
+        }
+    }
+    .top.right {
+        @if(Model.TopRightLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.TopRightLabel.BackgroundImage");
+        }
+        @if(Model.TopRightLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.TopRightLabel.BackgroundColor;
+        }
+    }
+    .centerRow.left {
+        @if(Model.CenterLeftLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.CenterLeftLabel.BackgroundImage");
+        }
+        @if(Model.CenterLeftLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.CenterLeftLabel.BackgroundColor;
+        }
+    }
+    .centerRow.centerColumn {
+        @if(Model.CenterLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.CenterLabel.BackgroundImage");
+        }
+        @if(Model.CenterLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.CenterLabel.BackgroundColor;
+        }
+    }
+    .centerRow.right {
+        @if(Model.CenterRightLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.CenterRightLabel.BackgroundImage");
+        }
+        @if(Model.CenterRightLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.CenterRightLabel.BackgroundColor;
+        }
+    }
+    .bottom.left {
+        @if(Model.BottomLeftLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.BottomLeftLabel.BackgroundImage");
+        }
+        @if(Model.BottomLeftLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.BottomLeftLabel.BackgroundColor;
+        }
+    }
+    .bottom.centerColumn {
+        @if(Model.BottomCenterLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.BottomCenterLabel.BackgroundImage");
+        }
+        @if(Model.BottomCenterLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.BottomCenterLabel.BackgroundColor;
+        }
+    }
+    .bottom.right {
+        @if(Model.BottomRightLabel.BackgroundImage != String.Empty)
+        {
+            @:background-image: url("@Model.BottomRightLabel.BackgroundImage");
+        }
+        @if(Model.BottomRightLabel.BackgroundColor != String.Empty)
+        {
+            @:background-color: @Model.BottomRightLabel.BackgroundColor;
+        }
+    }
+
+</style>

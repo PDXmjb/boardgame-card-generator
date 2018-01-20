@@ -5,3 +5,71 @@
     Html.RenderPartial("_Card", cardViewModel);
 }
 <a id="btn-Convert-Html2Image" href="#">Download</a>
+<style>
+    div {
+        display: inline;
+        font-family: Papyrus, fantasy;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .border-div {
+	    border: 1px solid black;
+	    margin: 0px;
+	    border-radius: 15px;
+	    width: 571px;
+	    height: 800px;
+	    display: inline-block;
+    }
+    .card-label {
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        margin: 5px;
+        height: 120px;
+        font-size: 30px;
+        color: white;
+        text-shadow: 1px 1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000,
+                    0px 1px 0 #000,
+                    0px -1px 0 #000,
+                    -1px 0px 0 #000,
+                    1px 0px 0 #000,
+                    2px 2px 0 #000,
+                    -2px 2px 0 #000,
+                    2px -2px 0 #000,
+                    -2px -2px 0 #000,
+                    0px 2px 0 #000,
+                    0px -2px 0 #000,
+                    -2px 0px 0 #000,
+                    2px 0px 0 #000,
+                    1px 2px 0 #000,
+                    -1px 2px 0 #000,
+                    1px -2px 0 #000,
+                    -1px -2px 0 #000,
+                    2px 1px 0 #000,
+                    -2px 1px 0 #000,
+                    2px -1px 0 #000,
+                    -2px -1px 0 #000;
+    }
+    .top, .bottom {
+        height: 80px;
+        line-height: 80px;
+    }
+    .centerRow{
+        height: 600px;
+        line-height: 608px;
+    }
+    .centerColumn{
+        width: 371px;
+    }
+    .left, .right {
+        width: 80px;
+    }
+    .centerRow.right, .centerRow.left {
+        writing-mode: vertical-lr;
+        line-height: 80px;
+    }
+</style>

@@ -33,10 +33,13 @@ namespace Card_generator.Models
         public CardLabel BottomCenterLabel { get; set; }
         public CardLabel BottomRightLabel { get; set; }
 
-        public CardViewModel(string backgroundImage, string backgroundColor, CardLabel topLeftLabel, CardLabel topCenterLabel, 
+        public string CardID { get; set; }
+
+        public CardViewModel(int cardID, string backgroundImage, string backgroundColor, CardLabel topLeftLabel, CardLabel topCenterLabel, 
                              CardLabel topRightLabel, CardLabel centerLeftLabel, CardLabel centerLabel, CardLabel centerRightLabel, 
                              CardLabel bottomLeftLabel, CardLabel bottomCenterLabel, CardLabel bottomRightLabel)
         {
+            CardID = "card" + cardID;
             BackgroundImage = backgroundImage;
             BackgroundColor = backgroundColor;
             TopLeftLabel = topLeftLabel;

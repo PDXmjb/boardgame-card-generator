@@ -17,6 +17,7 @@ namespace Card_generator.Controllers
             var reader = new StreamReader(System.IO.File.OpenRead(@"C:\Users\Mike Brooks\Dropbox\Card generator 2\game.csv"));
             var list = new List<CardViewModel>();
             Random rand = new Random();
+            int idIterator = 1;
             while (!reader.EndOfStream)
             {
                 var line = reader.ReadLine();
@@ -28,7 +29,7 @@ namespace Card_generator.Controllers
                 }
 
                 // Logic to be moved into its own factory.
-                var model = new CardViewModel(values[0], values[1],
+                var model = new CardViewModel(idIterator, values[0], values[1],
                     new CardLabel(values[2], values[3], values[4], values[5]),
                     new CardLabel(values[6], values[7], values[8], values[9]),
                     new CardLabel(values[10], values[11], values[12], values[13]),
@@ -40,6 +41,7 @@ namespace Card_generator.Controllers
                     new CardLabel(values[34], values[35], values[36], values[37]));
                 
                 list.Add(model);
+                idIterator++;
             }
             reader.Close();
             

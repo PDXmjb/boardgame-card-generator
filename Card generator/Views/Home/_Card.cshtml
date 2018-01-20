@@ -1,4 +1,4 @@
-﻿<div class="card border-div">
+﻿<div id="@(Model.CardID)" class="card border-div">
     <div style="@Model.TopLeftLabel.AdditionalCSS" class="card-label top left">@Model.TopLeftLabel.Label</div>
     <div style="@Model.TopCenterLabel.AdditionalCSS" class="card-label top centerColumn">@Model.TopCenterLabel.Label</div>
     <div style="@Model.TopRightLabel.AdditionalCSS" class="card-label top right">@Model.TopRightLabel.Label</div>
@@ -12,14 +12,8 @@
 
 
 <style type="text/css">
-    .border-div {
-	    border: 1px solid black;
-	    margin: 0px;
-	    border-radius: 15px;
-	    width: 571px;
-	    height: 800px;
-	    display: inline-block;
-        @if(Model.BackgroundImage != String.Empty)
+    #@(Model.CardID).border-div {
+	    @if(Model.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.BackgroundImage");
         }
@@ -27,67 +21,9 @@
         {
             @:background-color: @Model.BackgroundColor;
         }
-    }
-    div {
-	    display: inline;
-	    font-family: Papyrus, fantasy;
-        background-size: 108%;
-	    background-repeat: no-repeat;
-	    background-position: center;
-    }
-    .card-label {
-        text-align: center;
-        vertical-align: middle;
-        display: inline-block;
-        margin: 5px;
-        height: 120px;
-        font-size: 30px;
-        color: white;
-        text-shadow: 1px 1px 0 #000,
-                    -1px 1px 0 #000,
-                    1px -1px 0 #000,
-                    -1px -1px 0 #000,
-                    0px 1px 0 #000,
-                    0px -1px 0 #000,
-                    -1px 0px 0 #000,
-                    1px 0px 0 #000,
-                    2px 2px 0 #000,
-                    -2px 2px 0 #000,
-                    2px -2px 0 #000,
-                    -2px -2px 0 #000,
-                    0px 2px 0 #000,
-                    0px -2px 0 #000,
-                    -2px 0px 0 #000,
-                    2px 0px 0 #000,
-                    1px 2px 0 #000,
-                    -1px 2px 0 #000,
-                    1px -2px 0 #000,
-                    -1px -2px 0 #000,
-                    2px 1px 0 #000,
-                    -2px 1px 0 #000,
-                    2px -1px 0 #000,
-                    -2px -1px 0 #000;
-    }
-    .top, .bottom {
-        height: 80px;
-        line-height: 80px;
-    }
-    .centerRow{
-        height: 608px;
-        line-height: 608px;
-    }
-    .centerColumn{
-        width: 371px;
-    }
-    .left, .right {
-        width: 80px;
-    }
-    .centerRow.right, .centerRow.left {
-        writing-mode: vertical-lr;
-        line-height: 80px;
-    }
+    }       
 
-    .top.left {
+    #@(Model.CardID) .top.left {
         @if(Model.TopLeftLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.TopLeftLabel.BackgroundImage");
@@ -97,7 +33,7 @@
             @:background-color: @Model.TopLeftLabel.BackgroundColor;
         }
     }
-    .top.centerColumn {
+    #@(Model.CardID) .top.centerColumn {
         @if(Model.TopCenterLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.TopCenterLabel.BackgroundImage");
@@ -107,7 +43,7 @@
             @:background-color: @Model.TopCenterLabel.BackgroundColor;
         }
     }
-    .top.right {
+    #@(Model.CardID) .top.right {
         @if(Model.TopRightLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.TopRightLabel.BackgroundImage");
@@ -117,7 +53,7 @@
             @:background-color: @Model.TopRightLabel.BackgroundColor;
         }
     }
-    .centerRow.left {
+    #@(Model.CardID) .centerRow.left {
         @if(Model.CenterLeftLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.CenterLeftLabel.BackgroundImage");
@@ -127,7 +63,7 @@
             @:background-color: @Model.CenterLeftLabel.BackgroundColor;
         }
     }
-    .centerRow.centerColumn {
+    #@(Model.CardID) .centerRow.centerColumn {
         @if(Model.CenterLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.CenterLabel.BackgroundImage");
@@ -137,7 +73,7 @@
             @:background-color: @Model.CenterLabel.BackgroundColor;
         }
     }
-    .centerRow.right {
+    #@(Model.CardID) .centerRow.right {
         @if(Model.CenterRightLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.CenterRightLabel.BackgroundImage");
@@ -147,7 +83,7 @@
             @:background-color: @Model.CenterRightLabel.BackgroundColor;
         }
     }
-    .bottom.left {
+    #@(Model.CardID) .bottom.left {
         @if(Model.BottomLeftLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.BottomLeftLabel.BackgroundImage");
@@ -157,7 +93,7 @@
             @:background-color: @Model.BottomLeftLabel.BackgroundColor;
         }
     }
-    .bottom.centerColumn {
+    #@(Model.CardID) .bottom.centerColumn {
         @if(Model.BottomCenterLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.BottomCenterLabel.BackgroundImage");
@@ -167,7 +103,7 @@
             @:background-color: @Model.BottomCenterLabel.BackgroundColor;
         }
     }
-    .bottom.right {
+    #@(Model.CardID) .bottom.right {
         @if(Model.BottomRightLabel.BackgroundImage != String.Empty)
         {
             @:background-image: url("@Model.BottomRightLabel.BackgroundImage");
@@ -177,5 +113,5 @@
             @:background-color: @Model.BottomRightLabel.BackgroundColor;
         }
     }
-
+ 
 </style>

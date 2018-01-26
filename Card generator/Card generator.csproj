@@ -267,6 +267,7 @@
     <None Include="Resources\parchment.jpg" />
     <None Include="Resources\shield.png" />
     <None Include="Resources\swords.png" />
+    <Content Include="Resources\camelot.jpg" />
     <Content Include="Resources\The_Saracens_19740.jpeg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />

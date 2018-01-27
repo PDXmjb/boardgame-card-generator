@@ -1,10 +1,20 @@
 ﻿@model List<Card_generator.Models.CardViewModel>
 
+<div class="select-div">
+    <select id="cardSelector">
+        <option>None</option>
+        @foreach (var cardViewModel in Model)
+        {
+            <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
+        }
+    </select>
+    <a id="btn-Convert-Html2Image" href="#">Download</a>
+</div>
 @foreach (var cardViewModel in Model)
 {
     Html.RenderPartial("_Card", cardViewModel);
 }
-<a id="btn-Convert-Html2Image" href="#">Download</a>
+
 <style>
     div {
         display: inline;
@@ -13,9 +23,17 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    .select-div {
+        display: block;
+        background-color: darkseagreen;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 15px;
+        margin-top: 30px;
+    }
     .border-div {
 	    border: 1px solid black;
-	    margin: 0px;
 	    border-radius: 15px;
 	    width: 571px;
 	    height: 800px;

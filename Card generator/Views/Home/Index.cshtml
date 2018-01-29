@@ -1,24 +1,43 @@
 ﻿@model List<Card_generator.Models.CardViewModel>
 
-<div class="select-div">
-    <select id="cardSelector">
-        <option>None</option>
-        @foreach (var cardViewModel in Model)
-        {
-            <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
-        }
-    </select>
-    <a id="btn-Convert-Html2Image" href="#">Download</a>
-</div>
-@foreach (var cardViewModel in Model)
-{
-    Html.RenderPartial("_Card", cardViewModel);
-}
+<div class="container">
+    <h2>Card Creator</h2>
+    <form>
+        <div class="col-sm-12 row">
+            <select id="cardSelector">
+                <option>None</option>
+                @foreach (var cardViewModel in Model)
+                {
+                    <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
+                }
+            </select>
+            <a id="btn-Convert-Html2Image" href="#">Download</a>
+        </div>
+    </form>
 
+    @foreach (var cardViewModel in Model)
+    {
+        Html.RenderPartial("_Card", cardViewModel);
+    }
+
+    <form class="form" id="elementEditor">
+        <h3>Edit</h3>
+        <div class="form-group">
+            <label for="labelInput" class="col-sm-2 control-label">Label</label>
+            <div class="col-sm-10">
+                <input type="text" id="labelInput" class="label" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Preview</button>
+            </div>
+        </div>
+    </form>
+</div>
 <style>
     div {
         display: inline;
-        font-family: Papyrus, fantasy;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -41,6 +60,7 @@
     }
     .card-label {
         text-align: center;
+        font-family: Papyrus, fantasy;
         vertical-align: middle;
         display: inline-block;
         margin: 5px;
@@ -81,7 +101,7 @@
         line-height: 608px;
     }
     .centerColumn{
-        width: 371px;
+        width: 370px;
     }
     .left, .right {
         width: 80px;

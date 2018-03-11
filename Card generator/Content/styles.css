@@ -3,6 +3,16 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+html {
+    background-color: lightgray;
+}
+.card.hidden-card {
+    display: none;
+}
+.container {
+    background-color: white;
+    padding: 40px;
+}
 
 .select-div {
     display: block;

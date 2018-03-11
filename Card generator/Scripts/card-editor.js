@@ -1,9 +1,18 @@
 ﻿$(document).ready(function () {
+    var $this;
     $(".card-label").click(function(){
-        var $this = $(this);
+        $this = $(this);
         var $labelInput = $("#labelInput");
-        console.log($this.text());
         $labelInput.val($this.text());
+        //var $cssInput = $("#cssInput");
+        //$cssInput.val($this.prop("style"));
+        console.log($this.prop("style"));
+    });
 
+    $("#preview-button").click(function () {
+        if ($this)
+        {
+            $this.text($("#labelInput").val());
+        }
     });
 });

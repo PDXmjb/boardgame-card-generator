@@ -1,38 +1,47 @@
 ﻿@model List<Card_generator.Models.CardViewModel>
 
-<div class="container col-md-9">
-    <h2>Card Creator</h2>
-    <form>
-        <div class="col-sm-12 row">
-            <select id="cardSelector">
-                <option>None</option>
-                @foreach (var cardViewModel in Model)
-                {
-                    <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
-                }
-            </select>
-            <a id="btn-Convert-Html2Image" href="#">Download</a>
-        </div>
-    </form>
+<div class="container col-md-10">
+    <h1>Card Creator</h1>
+    <div class="row">        
+        <div id="card-chooser-div" class="col-md-5">
+            <form>
+                <div class="col-sm-12 row">
+                    <select id="cardSelector">
+                        <option>None</option>
+                        @foreach (var cardViewModel in Model)
+                        {
+                            <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
+                        }
+                        <option value="all">All</option>
+                    </select>
+                    <a id="btn-Convert-Html2Image" href="#">Download</a>
+                </div>
+            </form>
 
-    @foreach (var cardViewModel in Model)
-    {
-        Html.RenderPartial("_Card", cardViewModel);
-    }
-</div>
-<div class="container col-md-3">
-    <form class="form" id="elementEditor">
-        <h3>Edit</h3>
-        <div class="form-group">
-            <label for="labelInput" class="col-sm-2 control-label">Label</label>
-            <div class="col-sm-10">
-                <input type="text" id="labelInput" class="label" />
-            </div>
+            @foreach (var cardViewModel in Model)
+            {
+                Html.RenderPartial("_Card", cardViewModel);
+            }
+        </div>        
+        <div id="editor" class="col-md-3">
+            <form class="form" id="elementEditor">
+                <h3>Edit</h3>
+                <div class="form-group">
+                    <label for="labelInput" class="control-label">Label</label>
+                    <input type="text" id="labelInput" class="label" />
+                    @*<label for="cssInput" class="control-label">CSS</label>
+                    <input type="text" id="cssInput" class="label" />
+                    <label for="backgroundInput" class="control-label">Background</label>
+                    <input type="text" id="backgroundInput" class="label" />*@
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        <a id="preview-button" class="btn btn-default">Preview</a>
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2">
-                <button type="submit" class="btn btn-default">Preview</button>
-            </div>
-        </div>
-    </form>
+
+    </div>
+
 </div>

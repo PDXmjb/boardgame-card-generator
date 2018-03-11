@@ -29,8 +29,5 @@
             $("#editor").css("display", "inline-block");
             $("#card-chooser-div").removeClass("col-md-10").addClass("col-md-5");
         }
-    });
-
-    
-    
+    });    
 });    

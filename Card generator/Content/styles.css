@@ -9,6 +9,10 @@ html {
 .card.hidden-card {
     display: none;
 }
+#preview-button {
+    background-color: lightgray;
+    border-radius: 1px solid black;
+}
 .container {
     background-color: white;
     padding: 40px;

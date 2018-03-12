@@ -43,6 +43,24 @@ namespace Card_generator.Controllers
             reader.Close();
             
             return View(list);
-        }        
+        }
+
+        //public static bool WriteChanges(int id, string label, string css, string background)
+        //{
+
+        //    using (var file = new System.IO.StreamWriter(@"C:\Users\Mike Brooks\Dropbox\Card generator 2\game.csv"))
+        //    {
+        //        foreach (string line in lines)
+        //        {
+        //            // If the line doesn't contain the word 'Second', write the line to the file.
+        //            if (!line.Contains("Second"))
+        //            {
+        //                file.WriteLine(line);
+        //            }
+        //        }
+        //    }
+
+        //    return false;
+        //}
     }   
 }

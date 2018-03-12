@@ -6,12 +6,18 @@
 html {
     background-color: lightgray;
 }
+#editor {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
 .card.hidden-card {
     display: none;
 }
-#preview-button {
+.gray-btn {
     background-color: lightgray;
     border-radius: 1px solid black;
+    border: 1px solid gray;
 }
 .container {
     background-color: white;

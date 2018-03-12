@@ -249,6 +249,7 @@
     <Content Include="App_Data\CardGenerator_log.ldf">
       <DependentUpon>CardGenerator.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\dbo.Game.sql" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />

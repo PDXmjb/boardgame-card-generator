@@ -3,18 +3,21 @@
 <div class="container col-md-10">
     <h1>Card Creator</h1>
     <div class="row">        
-        <div id="card-chooser-div" class="col-md-5">
+        <div id="card-chooser-div" class="col-md-6">
             <form>
                 <div class="col-sm-12 row">
-                    <select id="cardSelector">
-                        <option value="none">None</option>
-                        @foreach (var cardViewModel in Model)
-                        {
-                            <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
-                        }
-                        <option value="all">All</option>
-                    </select>
-                    <a id="btn-Convert-Html2Image" href="#">Download</a>
+                    <div class="form-group form-inline">
+                        <label for="cardSelector">Select Card:</label>
+                        <select id="cardSelector" class="form-control col-md-6">
+                            <option value="none">None</option>
+                            @foreach (var cardViewModel in Model)
+                            {
+                                <option value="@(cardViewModel.CardID)">@(cardViewModel.TopCenterLabel.Label)</option>
+                            }
+                            <option value="all">All</option>
+                        </select>
+                        <a id="btn-Convert-Html2Image" href="#">Download</a>
+                    </div>                    
                 </div>
             </form>
 
@@ -24,30 +27,30 @@
             }
         </div>      
           
-        <div id="editor" style="display: none;" class="col-md-3">
+        <div id="editor" style="display: none;" class="col-md-4">
             <form class="form" id="elementEditor">
                 <h3>Edit</h3>
-                <div class="form-group">
-                    <label for="labelInput" class="col-md-12 control-label">Label</label>
-                    <div class="col-md-12">
+                <div class="form-group form-inline">
+                    <label for="labelInput" class="col-md-3 control-label">Label</label>
+                    <div class="col-md-9">
                         <input type="text" class="form-control" id="labelInput" class="label" />
                     </div>
                 </div>
-                <div class="form-group">                    
-                    <label for="cssInput" class="col-md-12 control-label">CSS</label>
-                    <div class="col-md-12">
+                <div class="form-group form-inline">                    
+                    <label for="cssInput" class="col-md-3 control-label">CSS</label>
+                    <div class="col-md-9">
                         <textarea style="width: 100%" class="form-control" id="cssInput" rows="3" class="textarea"></textarea>
                     </div>
                 </div>
-                <div class="form-group">                   
-                    <label for="backgroundInput" class="col-md-12 control-label">Background</label>
-                    <div class="col-md-12">
+                <div class="form-group form-inline">                   
+                    <label for="backgroundInput" class="col-md-3 control-label">Background</label>
+                    <div class="col-md-9">
                         <textarea style="width: 100%" class="form-control" id="backgroundInput" rows="5" class="textarea"></textarea>
                     </div>
                 </div>
                 <div class="form-group col-md-12">
                     <div class="col-md-offset-2">
-                        <a id="preview-button" class="btn btn-default">Preview</a>
+                        <a id="preview-button" class="btn btn-default gray-btn">Preview</a>
                     </div>
                 </div>
             </form>

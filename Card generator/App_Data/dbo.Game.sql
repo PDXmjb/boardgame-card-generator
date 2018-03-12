@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Game]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [OwnerId] INT NOT NULL
+)

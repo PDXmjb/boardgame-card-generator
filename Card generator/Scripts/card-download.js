@@ -23,6 +23,10 @@
             $("#editor").css("display", "none");
             $("#card-chooser-div").removeClass("col-md-5").addClass("col-md-10");
         }
+        else if ($(this).val() == "none")
+        {
+            $("#editor").css("display", "none");
+        }
         else
         {
             $("#" + $(this).val()).removeClass("hidden-card");

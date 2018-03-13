@@ -14,6 +14,9 @@ html {
 .card.hidden-card {
     display: none;
 }
+.form-inline > * {
+   margin:5px 3px;
+}
 .gray-btn {
     background-color: lightgray;
     border-radius: 1px solid black;

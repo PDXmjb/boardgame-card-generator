@@ -7,8 +7,11 @@
         var $cssInput = $("#cssInput");
         $cssInput.val($this.attr("style"));
         console.log($this.attr("style"));
-        var $backgroundInput = $("#backgroundInput");
-        $backgroundInput.val($this.css("background"))
+        var $backgroundImageInput = $("#backgroundImageInput");
+        $backgroundImageInput.val($this.css("background-image"))
+        var $backgroundColorInput = $("#backgroundColorInput");
+        $backgroundColorInput.val($this.css("background-color"))
+
     });
 
     $("#preview-button").click(function () {
@@ -16,7 +19,8 @@
         {
             $this.text($("#labelInput").val());
             $this.attr("style", $("#cssInput").val());
-            $this.css("background", $("#backgroundInput").val());
+            $this.css("background-image", $("#backgroundImageInput").val());
+            $this.css("background-color", $("#backgroundColorInput").val());
         }
     });
 });

@@ -7,7 +7,7 @@
             <form>
                 <div class="col-sm-12 row">
                     <div class="form-group form-inline">
-                        <label for="cardSelector">Select Card:</label>
+                        <label for="cardSelector" class="form-label">Select Card:</label>
                         <select id="cardSelector" class="form-control col-md-6">
                             <option value="none">None</option>
                             @foreach (var cardViewModel in Model)
@@ -30,22 +30,28 @@
         <div id="editor" style="display: none;" class="col-md-4">
             <form class="form" id="elementEditor">
                 <h3>Edit</h3>
-                <div class="form-group form-inline">
-                    <label for="labelInput" class="col-md-3 control-label">Label</label>
-                    <div class="col-md-9">
+                <div class="form-group">
+                    <label for="labelInput" class="col-md-12 control-label">Label</label>
+                    <div class="col-md-12">
                         <input type="text" class="form-control" id="labelInput" class="label" />
                     </div>
                 </div>
-                <div class="form-group form-inline">                    
-                    <label for="cssInput" class="col-md-3 control-label">CSS</label>
-                    <div class="col-md-9">
+                <div class="form-group">                    
+                    <label for="cssInput" class="col-md-12 control-label">CSS</label>
+                    <div class="col-md-12">
                         <textarea style="width: 100%" class="form-control" id="cssInput" rows="3" class="textarea"></textarea>
                     </div>
                 </div>
-                <div class="form-group form-inline">                   
-                    <label for="backgroundInput" class="col-md-3 control-label">Background</label>
-                    <div class="col-md-9">
-                        <textarea style="width: 100%" class="form-control" id="backgroundInput" rows="5" class="textarea"></textarea>
+                <div class="form-group">                   
+                    <label for="backgroundImageInput" class="col-md-12 control-label">Background Image</label>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" id="backgroundImageInput" class="label" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="backgroundColorInput" class="col-md-12 control-label">Background Color</label>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" id="backgroundColorInput" class="label" />
                     </div>
                 </div>
                 <div class="form-group col-md-12">

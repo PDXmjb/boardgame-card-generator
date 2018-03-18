@@ -304,3 +304,4 @@ C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\System.Diagnost
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csprojResolveAssemblyReference.cache
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.WinForms.dll
 C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\bin\HtmlRenderer.WinForms.pdb
+C:\Users\Mike Brooks\Dropbox\Card generator 2\Card generator\obj\Debug\Card generator.csproj.CoreCompileInputs.cache

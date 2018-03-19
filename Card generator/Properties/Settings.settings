@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Card_generator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RDS_HOSTNAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cardgendb.cz9vxnd2flhi.us-west-2.rds.amazonaws.com</Value>
+    </Setting>
+    <Setting Name="RDS_PORT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1433</Value>
+    </Setting>
+    <Setting Name="RDS_DB_NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cardgenerator</Value>
+    </Setting>
+    <Setting Name="RDS_USERNAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cardgendbadmin</Value>
+    </Setting>
+    <Setting Name="RDS_PASSWORD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">oBQ4osQ16EWj</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

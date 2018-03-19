@@ -1,4 +1,5 @@
 ﻿using Card_generator.Models;
+using Card_generator.Repositories;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,6 +11,8 @@ namespace Card_generator.Controllers
     {
         public ActionResult Index()
         {
+            //DeckRepository deckRepo = new DeckRepository();
+            //deckRepo.GetDeck(1);
             // TODO: Convert to user-linked database.
             var reader = new StreamReader(System.IO.File.OpenRead(@"C:\Users\Mike Brooks\Dropbox\Card generator 2\game.csv"));
             var list = new List<CardViewModel>();

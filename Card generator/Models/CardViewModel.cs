@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Card_generator.Models
+﻿namespace Card_generator.Models
 {
     /// <summary>
     /// Represents the supported structure of a playing card.

@@ -1,8 +1,5 @@
 ﻿using Card_generator.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Card_generator.Repositories
 {
@@ -10,6 +7,8 @@ namespace Card_generator.Repositories
     {
         public Deck GetDeck(int deckId)
         {
+            RDSContext.Create();
+
             return new Deck("Hi", new List<Card>());
         }
     }

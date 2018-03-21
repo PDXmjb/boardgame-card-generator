@@ -1,4 +1,4 @@
-﻿namespace Card_generator.Models
+﻿namespace CardGenerator.Models
 {
     /// <summary>
     /// Represents the supported structure of a playing card.

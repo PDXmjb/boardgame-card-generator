@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Card_generator
+namespace CardGenerator
 {
     public class BundleConfig
     {

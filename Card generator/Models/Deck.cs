@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Card_generator.Models
+namespace CardGenerator.Models
 {
     public class Deck
     {

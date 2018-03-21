@@ -1,7 +1,7 @@
-﻿using Card_generator.Models;
+﻿using CardGenerator.Models;
 using System.Collections.Generic;
 
-namespace Card_generator.Repositories
+namespace CardGenerator.Repositories
 {
     public class DeckRepository
     {

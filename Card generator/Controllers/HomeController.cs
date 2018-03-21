@@ -1,11 +1,11 @@
-﻿using Card_generator.Models;
-using Card_generator.Repositories;
+﻿using CardGenerator.Models;
+using CardGenerator.Repositories;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Web.Mvc;
 
-namespace Card_generator.Controllers
+namespace CardGenerator.Controllers
 {
     public class HomeController : Controller
     {

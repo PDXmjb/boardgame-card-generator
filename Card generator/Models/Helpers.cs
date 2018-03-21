@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace Card_generator.Models
+namespace CardGenerator.Models
 {
     public class Helpers
     {

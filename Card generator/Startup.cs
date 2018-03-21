@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Card_generator.Startup))]
-namespace Card_generator
+[assembly: OwinStartupAttribute(typeof(CardGenerator.Startup))]
+namespace CardGenerator
 {
     public partial class Startup
     {

@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Card_generator.Models
+namespace CardGenerator.Models
 {
     public class RDSContext : DbContext
     {

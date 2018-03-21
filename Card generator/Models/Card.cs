@@ -1,4 +1,4 @@
-﻿namespace Card_generator.Models
+﻿namespace CardGenerator.Models
 {
     public class Card
     {

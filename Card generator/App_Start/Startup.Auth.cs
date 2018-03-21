@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace Card_generator
+namespace CardGenerator
 {
     public partial class Startup
     {

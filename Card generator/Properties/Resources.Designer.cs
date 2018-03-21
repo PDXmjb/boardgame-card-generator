@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Card_generator.Properties {
+namespace CardGenerator.Properties {
     using System;
     
     

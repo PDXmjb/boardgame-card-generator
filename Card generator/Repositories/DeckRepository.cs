@@ -7,7 +7,14 @@ namespace CardGenerator.Repositories
     {
         public Deck GetDeck(int deckId)
         {
-            RDSContext.Create();
+
+            // Build a new list of cards.
+            using (var context = RDSContext.Create())
+            {
+
+            }
+
+            // Build each card, with each card label.
 
             return new Deck("Hi", new List<Card>());
         }
